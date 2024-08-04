@@ -40,10 +40,3 @@ C:\Users\joeyi\Desktop\Sem3\ivan\SWAD_Assg2\SWAD_Assg2\bin\Debug\net6.0\SWAD_Ass
 C:\Users\joeyi\Desktop\Sem3\ivan\SWAD_Assg2\SWAD_Assg2\obj\Debug\net6.0\SWAD_Assg2.genruntimeconfig.cache
 C:\Users\joeyi\Desktop\Sem3\ivan\SWAD_Assg2\SWAD_Assg2\obj\Debug\net6.0\ref\SWAD_Assg2.dll
 C:\Users\joeyi\Desktop\Sem3\ivan\SWAD_Assg2\SWAD_Assg2\bin\Debug\net6.0\Car_Details.csv
-C:\Users\raean\OneDrive - Ngee Ann Polytechnic\Desktop\SWAD_Assg2\SWAD_Assg2\SWAD_Assg2\obj\Debug\net6.0\SWAD_Assg2.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\raean\OneDrive - Ngee Ann Polytechnic\Desktop\SWAD_Assg2\SWAD_Assg2\SWAD_Assg2\obj\Debug\net6.0\SWAD_Assg2.AssemblyInfoInputs.cache
-C:\Users\raean\OneDrive - Ngee Ann Polytechnic\Desktop\SWAD_Assg2\SWAD_Assg2\SWAD_Assg2\obj\Debug\net6.0\SWAD_Assg2.AssemblyInfo.cs
-C:\Users\raean\OneDrive - Ngee Ann Polytechnic\Desktop\SWAD_Assg2\SWAD_Assg2\SWAD_Assg2\obj\Debug\net6.0\SWAD_Assg2.csproj.CoreCompileInputs.cache
-C:\Users\raean\OneDrive - Ngee Ann Polytechnic\Desktop\SWAD_Assg2\SWAD_Assg2\SWAD_Assg2\obj\Debug\net6.0\SWAD_Assg2.dll
-C:\Users\raean\OneDrive - Ngee Ann Polytechnic\Desktop\SWAD_Assg2\SWAD_Assg2\SWAD_Assg2\obj\Debug\net6.0\refint\SWAD_Assg2.dll
-C:\Users\raean\OneDrive - Ngee Ann Polytechnic\Desktop\SWAD_Assg2\SWAD_Assg2\SWAD_Assg2\obj\Debug\net6.0\SWAD_Assg2.pdb

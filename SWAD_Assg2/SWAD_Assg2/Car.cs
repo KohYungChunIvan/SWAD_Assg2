@@ -1,46 +1,72 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace swad_assg2
+namespace SWAD_Assg2
 {
     public class Car
     {
+        public int CarId { get; set; }
+        public bool Availability { get; set; }
+        public decimal RentalRate { get; set; }
+        public string InsuranceCoverage { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
         public int Year { get; set; }
         public int Mileage { get; set; }
-        public string Color { get; set; }
-        public string LicensePlate { get; set; }
+        public List<string> Photos { get; set; }
+        public string Description { get; set; }
+        public List<string> Reviews { get; set; }
+        public string LicensePlateNumber { get; set; }
         public string VIN { get; set; }
-        public string Photo { get; set; }
+        public string Color { get; set; }
 
-        public Car(string make, string model, int year, int mileage, string color, string licensePlate, string vin, string photo)
+        // Constructor
+        public Car(int carId, bool availability, decimal rentalRate, string insuranceCoverage, string make, string model, int year, int mileage, List<string> photos, string description, List<string> reviews, string licensePlateNumber, string vin, string color)
         {
+            CarId = carId;
+            Availability = availability;
+            RentalRate = rentalRate;
+            InsuranceCoverage = insuranceCoverage;
             Make = make;
             Model = model;
             Year = year;
             Mileage = mileage;
-            Color = color;
-            LicensePlate = licensePlate;
+            Photos = photos ?? new List<string>();
+            Description = description;
+            Reviews = reviews ?? new List<string>();
+            LicensePlateNumber = licensePlateNumber;
             VIN = vin;
-            Photo = photo;
+            Color = color;
         }
 
-        public bool IsAvailable(DateTime startDateTime, DateTime endDateTime, List<Booking> bookings)
+        // Method to add a photo
+        public void AddPhoto(string photo)
         {
-            foreach (var booking in bookings)
-            {
-                if (booking.Car.LicensePlate == LicensePlate &&
-                    !(endDateTime <= booking.StartDateTime || startDateTime >= booking.EndDateTime))
-                {
-                    return false;
-                }
-            }
-            return true;
+            Photos.Add(photo);
+        }
+
+        // Method to add a review
+        public void AddReview(string review)
+        {
+            Reviews.Add(review);
+        }
+
+        // Method to update mileage
+        public void UpdateMileage(int mileage)
+        {
+            Mileage = mileage;
+        }
+
+        // Method to update availability
+        public void UpdateAvailability(bool availability)
+        {
+            Availability = availability;
+        }
+
+        // Method to update rental rate
+        public void UpdateRentalRate(decimal rentalRate)
+        {
+            RentalRate = rentalRate;
         }
     }
 }
-

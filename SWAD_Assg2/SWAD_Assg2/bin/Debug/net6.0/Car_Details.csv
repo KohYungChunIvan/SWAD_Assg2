@@ -1,11 +1,4 @@
-Make,Model,Year,Mileage,Color,License Plate,VIN,Photo
-Toyota,Corolla,2020,15000,Blue,XYZ1234,1HGCM82633A123456,car.jpg
-Honda,Accord,2018,30000,Black,ABC4321,3HGCM82633A987654,car3.jpg
-Ford,Focus,2019,25000,Red,DEF5678,2FTRX18W1XCA12345,car4.jpg
-Chevrolet,Malibu,2020,20000,White,GHI9012,1G1ZD5ST8LF123456,car5.jpg
-Nissan,Altima,2017,35000,Silver,JKL3456,1N4AL3AP5HC123456,car6.jpg
-Hyundai,Elantra,2019,10000,Gray,MNO7890,KMHD84LF5HU123456,car7.jpg
-Kia,Soul,2020,5000,Green,PQR1234,KNDJP3A50L7001234,car8.jpg
-Mazda,3,2018,22000,Blue,STU5678,JM1BPANM5K1101234,car9.jpg
-BMW,X5,2021,8000,Black,VWX9012,5UXCR6C55K0Z12345,car10.jpg
-Mercedes-Benz,C-Class,2020,12000,White,YZA3456,WDDGF8ABXGF123456,car11.jpg
+CarId,Make,Model,Year,Mileage,Color,LicensePlateNumber,VIN,InsuranceCoverage,Photos,Description,RentalRate
+1,Toyota,Corolla,2015,50000,Red,ABC123,1HGCM82633A123456,Full Coverage,photo1.jpg,A reliable car.,50.0
+2,Honda,Civic,2018,30000,Blue,XYZ789,2HGFG128X8H123456,Full Coverage,photo2.jpg,A fuel-efficient car.,45.0
+3,Ford,Focus,2020,20000,Black,LMN456,1FADP3F26GL123456,Full Coverage,photo3.jpg,A spacious car.,55.0

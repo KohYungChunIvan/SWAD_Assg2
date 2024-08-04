@@ -28,6 +28,19 @@ namespace swad_assg2
             VIN = vin;
             Photo = photo;
         }
-    }
 
+        public bool IsAvailable(DateTime startDateTime, DateTime endDateTime, List<Booking> bookings)
+        {
+            foreach (var booking in bookings)
+            {
+                if (booking.Car.LicensePlate == LicensePlate &&
+                    !(endDateTime <= booking.StartDateTime || startDateTime >= booking.EndDateTime))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
 }
+

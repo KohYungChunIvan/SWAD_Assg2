@@ -15,6 +15,14 @@ namespace swad_assg2
         public bool IsPrime { get; set; }
         public string UpcomingRentals { get; set; }
         public bool IsPenalised { get; set; }
-    }
 
+        public Booking MakeBooking(int bookingId, DateTime startDateTime, DateTime endDateTime, float totalCost, string pickUpLocation, string returnLocation, Car car)
+        {
+            return new Booking(bookingId, startDateTime, endDateTime, totalCost, pickUpLocation, returnLocation, true)
+            {
+                Car = car,
+                Renter = this
+            };
+        }
+    }
 }

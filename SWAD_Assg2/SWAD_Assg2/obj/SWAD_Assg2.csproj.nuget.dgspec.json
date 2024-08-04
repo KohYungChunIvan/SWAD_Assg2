@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ivankoh/Downloads/NP/SEMESTER 3/SWAD/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2.csproj": {}
+    "/Users/ivankoh/Downloads/NP/SEMESTER 3/SWAD/Assignment/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2.csproj": {}
   },
   "projects": {
-    "/Users/ivankoh/Downloads/NP/SEMESTER 3/SWAD/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2.csproj": {
+    "/Users/ivankoh/Downloads/NP/SEMESTER 3/SWAD/Assignment/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ivankoh/Downloads/NP/SEMESTER 3/SWAD/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2.csproj",
+        "projectUniqueName": "/Users/ivankoh/Downloads/NP/SEMESTER 3/SWAD/Assignment/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2.csproj",
         "projectName": "SWAD_Assg2",
-        "projectPath": "/Users/ivankoh/Downloads/NP/SEMESTER 3/SWAD/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2.csproj",
+        "projectPath": "/Users/ivankoh/Downloads/NP/SEMESTER 3/SWAD/Assignment/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2.csproj",
         "packagesPath": "/Users/ivankoh/.nuget/packages/",
-        "outputPath": "/Users/ivankoh/Downloads/NP/SEMESTER 3/SWAD/SWAD_Assg2/SWAD_Assg2/obj/",
+        "outputPath": "/Users/ivankoh/Downloads/NP/SEMESTER 3/SWAD/Assignment/SWAD_Assg2/SWAD_Assg2/SWAD_Assg2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ivankoh/.nuget/NuGet/NuGet.Config"

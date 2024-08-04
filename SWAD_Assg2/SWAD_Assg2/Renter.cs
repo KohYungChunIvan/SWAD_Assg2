@@ -13,16 +13,34 @@ namespace swad_assg2
         public string PaymentDetails { get; set; }
         public string VerificationStatus { get; set; }
         public bool IsPrime { get; set; }
-        public string UpcomingRentals { get; set; }
+        public List<Booking> UpcomingRentals { get; set; } = new List<Booking>();
         public bool IsPenalised { get; set; }
 
-        public Booking MakeBooking(int bookingId, DateTime startDateTime, DateTime endDateTime, float totalCost, string pickUpLocation, string returnLocation, Car car)
+        public Booking MakeBooking(int bookingId, DateTime startDateTime, DateTime endDateTime, float totalCost, string pickUpLocation, string returnLocation, Car car) //for reserve
         {
-            return new Booking(bookingId, startDateTime, endDateTime, totalCost, pickUpLocation, returnLocation, true)
+            var booking = new Booking(bookingId, startDateTime, endDateTime, totalCost, pickUpLocation, returnLocation, true)
             {
                 Car = car,
                 Renter = this
             };
+            UpcomingRentals.Add(booking);
+            return booking;
+        }
+
+        public void DisplayUpcomingRentals() //For reserve
+        {
+            if (UpcomingRentals.Count == 0)
+            {
+                Console.WriteLine("No upcoming rentals found.");
+            }
+            else
+            {
+                Console.WriteLine("Upcoming Rentals:");
+                foreach (var rental in UpcomingRentals)
+                {
+                    Console.WriteLine($"Booking ID: {rental.BookingId}, Car: {rental.Car.Make} {rental.Car.Model}, Pick-Up: {rental.PickUpLocation}, Return: {rental.ReturnLocation}, Start: {rental.StartDateTime}, End: {rental.EndDateTime}");
+                }
+            }
         }
     }
 }

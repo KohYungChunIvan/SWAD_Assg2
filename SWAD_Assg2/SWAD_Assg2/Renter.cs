@@ -16,7 +16,7 @@ namespace swad_assg2
         public List<Booking> UpcomingRentals { get; set; } = new List<Booking>();
         public bool IsPenalised { get; set; }
 
-        public Booking MakeBooking(int bookingId, DateTime startDateTime, DateTime endDateTime, float totalCost, string pickUpLocation, string returnLocation, Car car) //for reserve
+        public Booking CreateBooking(int bookingId, DateTime startDateTime, DateTime endDateTime, float totalCost, string pickUpLocation, string returnLocation, Car car) //for reserve
         {
             var booking = new Booking(bookingId, startDateTime, endDateTime, totalCost, pickUpLocation, returnLocation, true)
             {

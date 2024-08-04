@@ -1,4 +1,0 @@
-CarId,Make,Model,Year,Mileage,Color,LicensePlateNumber,VIN,InsuranceCoverage,Photos,Description,RentalRate
-1,Toyota,Corolla,2015,50000,Red,ABC123,1HGCM82633A123456,Full Coverage,photo1.jpg,A reliable car.,50.0
-2,Honda,Civic,2018,30000,Blue,XYZ789,2HGFG128X8H123456,Full Coverage,photo2.jpg,A fuel-efficient car.,45.0
-3,Ford,Focus,2020,20000,Black,LMN456,1FADP3F26GL123456,Full Coverage,photo3.jpg,A spacious car.,55.0
